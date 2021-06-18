@@ -1,6 +1,6 @@
 
 from django.db import models
-#x="ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+
 
 class Article(models.Model):
     title = models.CharField(max_length=100,blank=False)
