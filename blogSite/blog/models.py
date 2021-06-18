@@ -1,6 +1,9 @@
 
 from django.db import models
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1de98225e683fc6524022c9ab2b5b4f7c3de2e55
 
 class Article(models.Model):
     title = models.CharField(max_length=100,blank=False)
